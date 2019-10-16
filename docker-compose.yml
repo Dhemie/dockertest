@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  server:
+    container_name: backend
+    build: ./
+    command: npm start
+    working_dir: /var/www/dockertest
+    ports:
+      - "3000:3000"
