@@ -8,3 +8,4 @@ services:
     working_dir: /var/www/dockertest
     ports:
       - "3000:3000"
+      
